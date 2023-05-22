@@ -68,6 +68,7 @@ Latența s-a redus nesemnificativ, iar la eliminarea blocului cu metronom nu a a
  mai mare decât în cazul semnalului de accelerație pe o singură axă. 
  Am încercat opțiunea de OSC combined messages pentru o transmisiune mai rapidă în timp real, dar latența nu s-a modificat.
 
+(05.22) Adăugat al doilea telefon și kick. Făcut interfață grafică pentru feedback vizual. Încercat sincronizarea dintre velocity output și output semnal, dar problema întârzierii încă persistă. 
 ## (Link-uri)
 Inspirație: https://www.youtube.com/watch?v=wgptHLBI0e4
 
