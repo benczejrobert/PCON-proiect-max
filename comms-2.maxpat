@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1468.0, 929.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,34 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 586.970152616500854, 790.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 967.470152616500854, 144.0, 109.0, 20.0 ],
+					"text" : "volume",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 468.0, 855.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 771.5, 133.0, 109.0, 20.0 ],
+					"text" : "enable for sound",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-54",
 					"maxclass" : "comment",
@@ -142,7 +170,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.388057112693787, 476.0, 619.0, 195.0 ],
+					"patching_rect" : [ 5.388057112693787, 510.0, 619.0, 195.0 ],
 					"range" : [ -2.0, 2.0 ]
 				}
 
@@ -1351,7 +1379,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -1246.0, 127.0, 1003.0, 873.0 ],
+						"rect" : [ 42.0, 127.0, 1003.0, 873.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2051,7 +2079,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 538.470152616500854, 712.201492190361023, 197.0, 62.0 ]
+					"patching_rect" : [ 538.470152616500854, 712.201492190361023, 197.0, 62.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 933.0, 203.0, 197.0, 62.0 ]
 				}
 
 			}
@@ -2061,7 +2091,9 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 531.470152616500854, 781.0, 45.0, 45.0 ]
+					"patching_rect" : [ 531.470152616500854, 781.0, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 758.0, 166.0, 136.0, 136.0 ]
 				}
 
 			}
